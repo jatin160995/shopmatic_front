@@ -101,7 +101,7 @@ class storestate extends State<Store_detail> {
     String quantity = Quantity.toString();
     return SafeArea(
         child: Scaffold(
-      //floatingActionButtonLocation: FloatingActionButtonLocation.startDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.startDocked,
       resizeToAvoidBottomPadding: true,
       body: Stack(children: <Widget>[
         Container(
